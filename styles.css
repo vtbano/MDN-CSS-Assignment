@@ -63,4 +63,9 @@ nav a {
 article > img {
   float: left;
   margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  text-align: justify;
 }

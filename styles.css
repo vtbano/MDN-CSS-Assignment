@@ -46,10 +46,13 @@ nav a {
   padding: 0.5em 1em;
 }
 
+h2 {
+  margin-left: 20px;
+}
 .photos {
   list-style: none;
   margin-right: 0;
-  margin-left: 10px;
+  margin-left: 20px;
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;

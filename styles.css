@@ -24,6 +24,11 @@ img {
   display: flex;
 }
 /* 4. The <article> and <aside> elements should display as a two column layout. The columns should be a flexible size so that if the browser window shrinks smaller the columns become narrower. */
+@media screen and (max-width: 480px) {
+  .grid {
+    display: block;
+  }
+}
 
 nav {
   background-color: #000;
@@ -42,6 +47,17 @@ nav ul {
   justify-content: space-around;
 }
 /* 1. To display the navigation items in a row, with an equal amount of space between the items. */
+
+@media screen and (max-width: 480px) {
+  nav ul {
+    display: block;
+  }
+
+  p {
+    text-align: start;
+  }
+}
+
 nav a {
   color: #fff;
   text-decoration: none;
